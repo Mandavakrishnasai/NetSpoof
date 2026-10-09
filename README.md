@@ -25,8 +25,6 @@ Supports ARP spoofing (IPv4), NDP spoofing (IPv6 RA + NA), DHCPv6 advertisement,
 - [Roadmap](#roadmap)
 - [Legal](#legal)
 - [Credits](#credits)
-- [License](#license)
-- [Status](#status)
 
 ---
 
@@ -423,23 +421,6 @@ netspoof is original Go code. It uses the following MIT/BSD-licensed libraries:
 - [github.com/mdlayher/dhcp6](https://github.com/mdlayher/dhcp6) — DHCPv6 codec (MIT)
 
 No code from Bettercap, Ettercap, or any source-available tool is included. Feature inspiration comes from the public documentation of those tools; the implementation is independent.
----
-
-## Status
-
-| Module | Status |
-|---|---|
-| ARP spoofing | ✅ Working, tested |
-| ARP restoration | ✅ Working, tested |
-| NDP RA | ✅ Working, tested |
-| NDP NA | ✅ Working, tested |
-| DHCPv6 | ✅ Working, tested |
-| DNS spoofing | ✅ Working, tested |
-| Sniffing (HTTP, TLS SNI, DNS) | ✅ Working, tested |
-| Sniffing (FTP, NTLM, SMTP) | 🟡 Implemented, minimal testing |
-| Web UI | 🔴 Not planned |
-| PCAP export | 🔴 Not planned |
-
 ---
 
 *Last updated: October 2026*
